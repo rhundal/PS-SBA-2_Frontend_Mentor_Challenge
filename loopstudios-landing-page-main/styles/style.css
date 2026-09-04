@@ -118,3 +118,36 @@ body {}
     padding-top: 30px;
     justify-content: center;
 }
+
+.middleSection2-grid-container1 {
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1000px;
+    margin-left: 50px;
+
+}
+
+.middleSection2-grid-container2 {
+
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: brown;
+    border: 2px rgb(135, 144, 135) solid;
+}
+
+.item {
+    color: white;
+    display: felx;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.item2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
