@@ -129,7 +129,6 @@ body {}
     row-gap: 16px;
     margin-left: 250px;
     margin-right: 250px;
-    border: 1px rgb(255, 0, 221) solid;
 }
 
 .middleSection2-grid-container1 {
@@ -221,7 +220,6 @@ body {}
     align-items: flex-end;
     width: 100%;
     height: 450px;
-    border: 2px orange solid;
     position: relative;
 
 }
@@ -330,18 +328,3 @@ body {}
     margin-left: 1000px;
     margin-right: 20px;
 }
-
-/* #footer_icon_list {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: -50px;
-
-} */
-
-/* #facebook, #pinterest, #twitter, #instagram {
-
-    margin-right: -450px;
-
-} */
