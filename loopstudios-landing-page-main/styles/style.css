@@ -62,12 +62,13 @@ body {}
 #middleSection1 {
 
     /* background-color: transparent; */
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     padding-top: 30px;
     justify-content: center;
+
 }
 
 #vr_glassespic {
@@ -111,12 +112,23 @@ body {}
 
 #middleSection2 {
 
-    background-color: rgb(26, 188, 75);
+    background-color: white;
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     padding-top: 30px;
     justify-content: center;
+    align-items: center;
+}
+
+#innerSection {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 1px rgb(255, 0, 221) solid;
 }
 
 .middleSection2-grid-container1 {
@@ -124,19 +136,16 @@ body {}
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
-    gap: 230px;
+    height: 80px;
+    gap: 300px;
     margin-left: 50px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
 
 }
 
-.middleSection2-grid-container2 {
-
-    display: grid;
-    grid-template-rows: 2fr 2fr;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: brown;
-    border: 2px rgb(135, 144, 135) solid;
-}
 
 .item1 {
     color: white;
@@ -147,9 +156,9 @@ body {}
     color: rgb(11, 11, 11);
     font-size: 42px;
     margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 170px;
-    background-color: blueviolet;
+    margin-left: 0px;
+    align-items: center;
+
 
 }
 
@@ -158,7 +167,84 @@ body {}
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 20px;
-    margin-left: 250px;
+    margin-right: 0px;
+    margin-left: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(11, 11, 11);
+    font-size: 22px;
+    border: 2px black solid;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-left: 45px;
+    padding-right: 65px;
+
+
+
+}
+
+.middleSection2-grid-container2 {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+#innerSection2 {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+.row {
+
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    column-gap: 66px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.column {
+
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 450px;
+    border: 2px orange solid;
+    position: relative;
+
+}
+
+.imgStyle {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+#imageTxt {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 2;
+    padding-left: 50px;
+    padding-bottom: 90px;
+    font-size: 25px;
 
 }
